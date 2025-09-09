@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My DevOps Website</title>
+  <style>
+    /* Reset and general styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1abc9c, #3498db);
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* Navbar */
+    nav {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #f1c40f;
+      color: #333;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #e67e22;
+      transform: scale(1.05);
+    }
+
+    /* Projects Cards */
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      color: #333;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      width: 280px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    /* Contact */
+    .contact-info {
+      background: rgba(0,0,0,0.2);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    /* Footer */
+    footer {
+      background: rgba(0,0,0,0.4);
+      padding: 15px;
+      margin-top: 50px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>🚀 Welcome to My DevOps Website</h1>
+    <p>Learning DevOps, Cloud, and Automation step by step</p>
+    <a href="#projects" class="btn">Explore Projects</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h1>📂 My Projects</h1>
+    <p>Some of the exciting things I’ve been working on:</p>
+    <div class="features">
+      <div class="card">
+        <h2>⚡ Automation</h2>
+        <p>CI/CD pipelines for faster delivery and testing.</p>
+      </div>
+      <div class="card">
+        <h2>☁ Cloud Deployment</h2>
+        <p>Apps deployed on AWS, Azure, and Google Cloud.</p>
+      </div>
+      <div class="card">
+        <h2>🔐 DevSecOps</h2>
+        <p>Secure infrastructure with automation and monitoring.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1>👨‍💻 About Me</h1>
+    <p>
+      Hi! I am passionate about <b>DevOps, Cloud, and Automation</b>.  
+      My goal is to design reliable systems that scale efficiently.  
+      I enjoy learning new tools, working with containers, and building pipelines.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h1>📩 Contact Me</h1>
+    <p>If you’d like to connect, reach out to me via:</p>
+    <div class="contact-info">
+      <p><b>Email:</b> mrai53225@.com</p>
+      <p><b>Phone:</b> 2345566765</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My DevOps Website | Made with ❤️</p>
+  </footer>
+</body>
+</html>
