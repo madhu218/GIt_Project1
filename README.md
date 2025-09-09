@@ -1,4 +1,4 @@
 # My First Git Repo
-## Write few lines About yourself
+## I am Madhu a Data Science Student.
 I am final year student
 ## Contribution Made by Ranju
